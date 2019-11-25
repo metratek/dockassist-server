@@ -1,4 +1,66 @@
-{"timestamp":"2019-11-25 10:01:23.6000","service":"udp_server","level":"info","message":"Server is listening at port 6677"}
-{"timestamp":"2019-11-25 10:01:23.6040","service":"udp_server","level":"info","message":"Server ip :0.0.0.0"}
-{"timestamp":"2019-11-25 10:01:23.6040","service":"udp_server","level":"info","message":"Server is IP4/IP6 : IPv4"}
-{"timestamp":"2019-11-25 10:01:23.6360","service":"socket.io","level":"info","message":"Client CONNECT [id=VdmFVDo4dD--rBLJAAAA], ip=185.51.134.195"}
+{"timestamp":"2019-11-25 11:07:37.8660","service":"udp_server","level":"info","message":"Server is listening at port 6677"}
+{"timestamp":"2019-11-25 11:07:37.8710","service":"udp_server","level":"info","message":"Server ip :0.0.0.0"}
+{"timestamp":"2019-11-25 11:07:37.8710","service":"udp_server","level":"info","message":"Server is IP4/IP6 : IPv4"}
+{"timestamp":"2019-11-25 11:07:39.0130","service":"udp_server","level":"info","message":"Server is listening at port 6677"}
+{"timestamp":"2019-11-25 11:07:39.0160","service":"udp_server","level":"info","message":"Server ip :0.0.0.0"}
+{"timestamp":"2019-11-25 11:07:39.0170","service":"udp_server","level":"info","message":"Server is IP4/IP6 : IPv4"}
+{"timestamp":"2019-11-25 11:07:39.0920","service":"udp_server","level":"info","message":"!AIVDM,1,1,,B,33R3<00Oh91ad6HEdUB8aoK<01wP,0*7D\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:39.0940","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:39.1310","service":"socket.io","level":"info","message":"Client CONNECT [id=_0uY-G2VZgFxSQE2AAAA], ip=185.51.134.195"}
+{"timestamp":"2019-11-25 11:07:39.2760","service":"udp_server","level":"info","message":"!AIVDM,1,1,,A,33R3:m0Oi21ak5jEdNg:M8o>0120,0*45\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:39.2770","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:40.3880","service":"udp_server","level":"info","message":"$DBD$[{\"jettyname\": \"C In\",\"vesselname\": \"SOUDA\",\"mmsi\": \"241109000\",\"name1\": \"CIN-W\",\"d1\": \"\",\"s1\": \"\",\"name2\": \"CIN-E\",\"d2\": \"\",\"s2\": \"\",\"Angle\": \"\",\"VTOffset\": \"60.5582501774866\",\"VTDistance\": \"28.7661543316573\",\"VTAngle\": \"-17\"}] | Received 233 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:40.7890","service":"udp_server","level":"info","message":"!AIVDM,1,1,,A,1774Co00@61d9`fEc@QVOTk>05@L,0*35\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:40.7900","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:40.8680","service":"udp_server","level":"info","message":"!AIVDM,1,1,,B,13UeNR00001aIRHEda0QH3QB2D0J,0*4D\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:40.8690","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:41.1180","service":"udp_server","level":"info","message":"!AIVDM,1,1,,A,13V>s:0P03Qad3rEdP:K`7;@20Rq,0*7E\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:41.1190","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:41.7020","service":"udp_server","level":"info","message":"!AIVDM,1,1,,B,13U3ju0P00QahEtEdTGv4?wD20R:,0*41\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:41.7040","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:42.5520","service":"udp_server","level":"info","message":"!AIVDM,1,1,,B,13Tvi50P0a1c<8LEg154M?wF0<4E,0*5E\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:42.5530","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:42.8280","service":"udp_server","level":"info","message":"!AIVDM,1,1,,B,13R3:m0Oi31ak3TEdNfbKpkD00S1,0*75\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:42.8290","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:42.9020","service":"udp_server","level":"info","message":"!AIVDM,1,1,,A,33R3<00Oh:1ad6:EdU@8U7OB00r0,0*7F\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:42.9040","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:42.9800","service":"udp_server","level":"info","message":"!AIVDM,1,1,,A,19NSLW0OjJ1cwGFEc1T63U7H0L7:,0*4E\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:42.9810","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:43.4240","service":"udp_server","level":"info","message":"$DBD$[{\"jettyname\": \"C In\",\"vesselname\": \"SOUDA\",\"mmsi\": \"241109000\",\"name1\": \"CIN-W\",\"d1\": \"\",\"s1\": \"\",\"name2\": \"CIN-E\",\"d2\": \"20.069\",\"s2\": \"-17.2\",\"Angle\": \"\",\"VTOffset\": \"60.5582501774866\",\"VTDistance\": \"28.7661543316573\",\"VTAngle\": \"-17\"}] | Received 244 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:43.6720","service":"udp_server","level":"info","message":"!AIVDM,1,1,,A,13VJ603P001ciWhEejsLjgwH0D4N,0*10\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:43.6730","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:43.9080","service":"udp_server","level":"info","message":"!AIVDM,1,1,,B,13TNc;0P15Qc<36Eg3E<mwwH0@J1,0*4C\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:43.9090","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:43.9890","service":"udp_server","level":"info","message":"!AIVDM,1,1,,A,13Ut82000;1ad5JEdU8Ho6oJ08J4,0*41\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:43.9890","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:44.4170","service":"udp_server","level":"info","message":"!AIVDM,1,1,,A,13R29V0P05QdJvDEeCDRwgwH2<<i,0*02\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:44.4170","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:44.8720","service":"udp_server","level":"info","message":"!AIVDM,1,1,,A,37fr0f50001`vU6EeQbFl47H0000,0*53\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:44.8730","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:44.9130","service":"udp_server","level":"info","message":"!AIVDM,1,1,,A,33R1lq06j@1cvNBEbubPvi1p00W0,0*05\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:44.9150","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:44.9220","service":"udp_server","level":"info","message":"!AIVDM,1,1,,A,33U0vO0Oh`1c7vLEfGqWs6OH00wP,0*75\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:44.9220","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:45.1950","service":"udp_server","level":"info","message":"!AIVDM,1,1,,B,13V9KV0Oh?1ab>LEceo7BngL00S8,0*4A\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:45.1960","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:45.2690","service":"udp_server","level":"info","message":"!AIVDM,1,1,,A,138ALJ002?Qd6SlEaK26nUMN2@Jl,0*6D\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:45.2700","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:45.9130","service":"udp_server","level":"info","message":"!AIVDM,1,1,,A,34`qm<10021cf4LEbMUuw3oH0lkJ,0*7A\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:45.9140","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:46.0760","service":"udp_server","level":"info","message":"!AIVDM,2,1,2,A,53VINt02?VA1=H7OSWHE8lTtpV2222222222220l1@<444FR08hAjCjH521C,0*17\r\n | Received 82 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:46.0770","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:46.0790","service":"udp_server","level":"info","message":"!AIVDM,2,2,2,A,i3lSjH88881,2*60\r\n | Received 33 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:46.0800","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:46.1120","service":"udp_server","level":"info","message":"!AIVDM,1,1,,A,13U3kF7P00QahG6EdT>v4?wL20Sr,0*0F\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:46.1130","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:46.1790","service":"udp_server","level":"info","message":"!AIVDM,1,1,,A,34Rb>v5000Q`vMNEeS?J?QAN2Dgb,0*0C\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:46.1800","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:46.2030","service":"udp_server","level":"info","message":"!AIVDM,1,1,,B,181:L3h00:1ab;@Ech>G5mmN0@KG,0*73\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:46.2040","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:46.2850","service":"udp_server","level":"info","message":"!AIVDM,1,1,,B,13R3<00Oh:1ad5nEdU=`RWOJ05@L,0*28\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:46.2850","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:46.3180","service":"udp_server","level":"info","message":"!AIVDM,1,1,,A,33R3:m0Oi11ak0bEdNebJ`mL01t@,0*08\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:46.3190","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}
+{"timestamp":"2019-11-25 11:07:46.4500","service":"udp_server","level":"info","message":"$DBD$[{\"jettyname\": \"C In\",\"vesselname\": \"SOUDA\",\"mmsi\": \"241109000\",\"name1\": \"CIN-W\",\"d1\": \"\",\"s1\": \"\",\"name2\": \"CIN-E\",\"d2\": \"19.706\",\"s2\": \"-3.5\",\"Angle\": \"\",\"VTOffset\": \"55.5766356612222\",\"VTDistance\": \"27.6554361101166\",\"VTAngle\": \"-17\"}] | Received 243 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:46.4940","service":"udp_server","level":"info","message":"!AIVDM,1,1,,B,169sK@0vh61d0w@Ec`w1k7qL0hKR,0*09\r\n | Received 49 bytes from 91.132.16.2:60691"}
+{"timestamp":"2019-11-25 11:07:46.4950","service":"udp_server","level":"info","message":"Forwarded to 127.0.0.1:6688"}

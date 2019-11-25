@@ -1,0 +1,4 @@
+{"timestamp":"2019-11-25 10:01:23.6000","service":"udp_server","level":"info","message":"Server is listening at port 6677"}
+{"timestamp":"2019-11-25 10:01:23.6040","service":"udp_server","level":"info","message":"Server ip :0.0.0.0"}
+{"timestamp":"2019-11-25 10:01:23.6040","service":"udp_server","level":"info","message":"Server is IP4/IP6 : IPv4"}
+{"timestamp":"2019-11-25 10:01:23.6360","service":"socket.io","level":"info","message":"Client CONNECT [id=VdmFVDo4dD--rBLJAAAA], ip=185.51.134.195"}

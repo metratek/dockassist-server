@@ -1,0 +1,9 @@
+{
+    "serverHost": "0.0.0.0",
+    "port": 6677,
+    "timeout": 10000,
+    "logdir": "log/server/",
+    "forwardIP" : "127.0.0.1",
+    "forwardPort" : 6688
+
+}

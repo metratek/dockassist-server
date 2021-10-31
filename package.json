@@ -1,0 +1,26 @@
+{
+  "name": "dockassist-server",
+  "version": "1.0.0",
+  "description": "A node server application to support operation of the client dockassist app. It creates both a udp and a socket.io server.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreas-sakellariou/dockassist-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreas-sakellariou/dockassist-server/issues"
+  },
+  "homepage": "https://github.com/andreas-sakellariou/dockassist-server#readme",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "nodemailer": "^6.7.0",
+    "socket.io": "^4.3.1",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.5"
+  }
+}

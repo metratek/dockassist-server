@@ -4,12 +4,12 @@ var nodemailer = require('nodemailer');
 
 var transporter = nodemailer.createTransport({
   pool: true,
-  host: "secure57.webhostinghub.com",
-  port: 465,
+  host: "mail.metratek.co.uk",
+  port: 587,
   secure: true, // use TLS
   auth: {
     user: "info@metratek.co.uk",
-    pass: "6;sR?i1234"
+    pass: ")nc?CBos-&#6"
   }
 });
 

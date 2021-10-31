@@ -1,7 +1,29 @@
 var sendMail = require ('./emailer');
-const
-    io = require("socket.io"),
-    ioserver = io.listen(3000);
+var fs = require('fs');
+
+const certPath = "C:/Certbot/live/moh.metratek.co.uk"
+
+var options = {
+  key: fs.readFileSync(certPath+'/privkey.pem'),
+  cert: fs.readFileSync(certPath+'/fullchain.pem'),
+  cookie: false
+};
+
+
+// we have to create one http and one https server
+// to attach the socketio server, since with the simple
+// listen method SSL is not possible
+const httpServer = require('http').createServer();
+var httpsServer = require('https').createServer(options);
+var ioserver = require('socket.io')();
+
+//var ioserver = new ioServer();
+ioserver.attach(httpServer);
+ioserver.attach(httpsServer);
+httpServer.listen(3000);
+httpsServer.listen(3001);
+
+
 
 const {
     log

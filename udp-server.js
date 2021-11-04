@@ -42,9 +42,15 @@ server.on('message', (msg,info) => {
            })  //end server.send  */            
     } else{
         const jsonstr = msgstr.substring(5, msgstr.length );
-        const data = Buffer.from(jsonstr);            
-        // broadcast berthing data to connected websockets clients    
+         
+        // broadcast berthing data to connected websockets clients   
+        
+        console.log( JSON.parse(jsonstr));
+        try {
         ioserver.sockets.emit('message', JSON.parse(jsonstr)); 
+        } catch(e) {
+            log("udp_server", "error", "Trying to emit berthing data to clients" + e) ;
+        }
     }
    
 

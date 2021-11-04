@@ -6,6 +6,8 @@ const certPath = "C:/Certbot/live/moh.metratek.co.uk"
 var options = {
   key: fs.readFileSync(certPath+'/privkey.pem'),
   cert: fs.readFileSync(certPath+'/fullchain.pem'),
+	// Set CORS headers
+  
   cookie: false
 };
 
@@ -13,13 +15,23 @@ var options = {
 // we have to create one http and one https server
 // to attach the socketio server, since with the simple
 // listen method SSL is not possible
-const httpServer = require('http').createServer();
+const httpServer = require('http').createServer(options);
 var httpsServer = require('https').createServer(options);
 var ioserver = require('socket.io')();
 
 //var ioserver = new ioServer();
-ioserver.attach(httpServer);
-ioserver.attach(httpsServer);
+ioserver.attach(httpServer,{
+    cors: {
+      origin: "*",
+      methods: ["GET", "POST"]
+    }
+  });
+ioserver.attach(httpsServer,{
+    cors: {
+      origin: "*",
+      methods: ["GET", "POST"]
+    }
+  });
 httpServer.listen(3000);
 httpsServer.listen(3001);
 

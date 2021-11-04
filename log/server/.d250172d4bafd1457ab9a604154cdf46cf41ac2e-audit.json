@@ -6,26 +6,6 @@
     "auditLog": "log\\server\\.d250172d4bafd1457ab9a604154cdf46cf41ac2e-audit.json",
     "files": [
         {
-            "date": 1634449681587,
-            "name": "log\\server\\access2021-10-17.log",
-            "hash": "16d585731b47b97e5a81533f9a63189a"
-        },
-        {
-            "date": 1634523219300,
-            "name": "log\\server\\access2021-10-18.log",
-            "hash": "7bcb598dd69bb83321d95c51531b6bd8"
-        },
-        {
-            "date": 1634609505356,
-            "name": "log\\server\\access2021-10-19.log",
-            "hash": "1ddca4e22927a78ef2eb1eb74f3d8ee0"
-        },
-        {
-            "date": 1634695953121,
-            "name": "log\\server\\access2021-10-20.log",
-            "hash": "3effcf9ba38e5ccea987c07e20919049"
-        },
-        {
             "date": 1634782309939,
             "name": "log\\server\\access2021-10-21.log",
             "hash": "285c203d47d7ef65f1888eb2f1245f8a"
@@ -64,6 +44,216 @@
             "date": 1635688098103,
             "name": "log\\server\\access2021-10-31.log",
             "hash": "20598bb2471b35cfa272082f09f87763"
+        },
+        {
+            "date": 1635825577287,
+            "name": "log\\server\\access2021-11-02.log",
+            "hash": "953abec19c532a9cc481c729288361b5"
+        },
+        {
+            "date": 1635910598995,
+            "name": "log\\server\\access2021-11-03.log",
+            "hash": "2edc6852bba0c19ca0fe39e5586c49f7"
+        },
+        {
+            "date": 1635945252937,
+            "name": "log\\server\\access2021-11-03.log.1",
+            "hash": "456e4f1eba17acfe96ca8dcffec2c23a"
+        },
+        {
+            "date": 1635946149381,
+            "name": "log\\server\\access2021-11-03.log.2",
+            "hash": "64ff4817d573957bed449509dc6e3341"
+        },
+        {
+            "date": 1635947074923,
+            "name": "log\\server\\access2021-11-03.log.3",
+            "hash": "e6175e9436587e406f27ef978ea29488"
+        },
+        {
+            "date": 1635948062937,
+            "name": "log\\server\\access2021-11-03.log.4",
+            "hash": "34194e89516d93e337700d68032c7911"
+        },
+        {
+            "date": 1635949023213,
+            "name": "log\\server\\access2021-11-03.log.5",
+            "hash": "2f4a935a9e400660708e2e47a582a2e3"
+        },
+        {
+            "date": 1635950022990,
+            "name": "log\\server\\access2021-11-03.log.6",
+            "hash": "459b775288c2a91a4d237828a85bb02c"
+        },
+        {
+            "date": 1635951072419,
+            "name": "log\\server\\access2021-11-03.log.7",
+            "hash": "f95e5f8f30cee0cfead3c23d26fff43e"
+        },
+        {
+            "date": 1635952058001,
+            "name": "log\\server\\access2021-11-03.log.8",
+            "hash": "c9f5cdbd2b5aa3dc2078d829042f408b"
+        },
+        {
+            "date": 1635952999233,
+            "name": "log\\server\\access2021-11-03.log.9",
+            "hash": "8067ecf830cf92266aea027a25312929"
+        },
+        {
+            "date": 1635953889395,
+            "name": "log\\server\\access2021-11-03.log.10",
+            "hash": "8d103123e322ecfc9245e0ba9e7a80f3"
+        },
+        {
+            "date": 1635954821898,
+            "name": "log\\server\\access2021-11-03.log.11",
+            "hash": "de036fb0fc1b3813d1f484b8269cdf92"
+        },
+        {
+            "date": 1635955806989,
+            "name": "log\\server\\access2021-11-03.log.12",
+            "hash": "bb42b21e871a32ca553df7e05feb43e1"
+        },
+        {
+            "date": 1635956621391,
+            "name": "log\\server\\access2021-11-03.log.13",
+            "hash": "f3796a344c53cbca617e18b7d4d46691"
+        },
+        {
+            "date": 1635957691602,
+            "name": "log\\server\\access2021-11-03.log.14",
+            "hash": "29bcdd8b8e92335873086f0603324432"
+        },
+        {
+            "date": 1635958771731,
+            "name": "log\\server\\access2021-11-03.log.15",
+            "hash": "07ab0354b12a8245671889d757ec0876"
+        },
+        {
+            "date": 1635959856842,
+            "name": "log\\server\\access2021-11-03.log.16",
+            "hash": "b5387470b9c1ad46fbfdbb775b237c1d"
+        },
+        {
+            "date": 1635960949887,
+            "name": "log\\server\\access2021-11-03.log.17",
+            "hash": "46b19a011b1a1faa4db8c4a7a46112c9"
+        },
+        {
+            "date": 1635962029579,
+            "name": "log\\server\\access2021-11-03.log.18",
+            "hash": "dedfc69d320735a7e946a8d2a11d5073"
+        },
+        {
+            "date": 1635963317743,
+            "name": "log\\server\\access2021-11-03.log.19",
+            "hash": "5a1092b670068ab649ee89dd537bf1f9"
+        },
+        {
+            "date": 1635964419778,
+            "name": "log\\server\\access2021-11-03.log.20",
+            "hash": "298683d793df3dbad7afd0b9e381cf61"
+        },
+        {
+            "date": 1635965419450,
+            "name": "log\\server\\access2021-11-03.log.21",
+            "hash": "0b395f7955c0623130880068e8409e9c"
+        },
+        {
+            "date": 1635966410754,
+            "name": "log\\server\\access2021-11-03.log.22",
+            "hash": "7da1b96f59a01f20b0edbcaae4571990"
+        },
+        {
+            "date": 1635967487152,
+            "name": "log\\server\\access2021-11-03.log.23",
+            "hash": "e39a6a450de531873ec6197972fadcb7"
+        },
+        {
+            "date": 1635969127025,
+            "name": "log\\server\\access2021-11-03.log.24",
+            "hash": "812ae108ca7093b5b10ef5a22914a9f8"
+        },
+        {
+            "date": 1635972145290,
+            "name": "log\\server\\access2021-11-03.log.25",
+            "hash": "747e5f4b9a094f998e5635d8bf1d8f60"
+        },
+        {
+            "date": 1635975449344,
+            "name": "log\\server\\access2021-11-03.log.26",
+            "hash": "3b479156ff89d98e43b56d982633df7d"
+        },
+        {
+            "date": 1635976807158,
+            "name": "log\\server\\access2021-11-04.log",
+            "hash": "2ccfc6fd3301e6ce12d7106b5cc5ee20"
+        },
+        {
+            "date": 1635978858497,
+            "name": "log\\server\\access2021-11-04.log.1",
+            "hash": "fb1c66f159bf038b057bef1a448a368d"
+        },
+        {
+            "date": 1635980682340,
+            "name": "log\\server\\access2021-11-04.log.2",
+            "hash": "34aba62b46a35e4b139b713a29962e61"
+        },
+        {
+            "date": 1635982431157,
+            "name": "log\\server\\access2021-11-04.log.3",
+            "hash": "77a3353c5d237b2e4147f50e575ff4a0"
+        },
+        {
+            "date": 1635984266708,
+            "name": "log\\server\\access2021-11-04.log.4",
+            "hash": "81b8997753365d46a3dfe1bde4e4a686"
+        },
+        {
+            "date": 1635986077415,
+            "name": "log\\server\\access2021-11-04.log.5",
+            "hash": "c4783d74b38a7d5fbe9a2042a4b86fac"
+        },
+        {
+            "date": 1635987950045,
+            "name": "log\\server\\access2021-11-04.log.6",
+            "hash": "982cc9fdb6ab1703614782e2f77144c9"
+        },
+        {
+            "date": 1635990697251,
+            "name": "log\\server\\access2021-11-04.log.7",
+            "hash": "3def678dbcb598b0c4ea623a4140e070"
+        },
+        {
+            "date": 1635993286154,
+            "name": "log\\server\\access2021-11-04.log.8",
+            "hash": "284f066e075d903c14ffda0381242f6a"
+        },
+        {
+            "date": 1635994553915,
+            "name": "log\\server\\access2021-11-04.log.9",
+            "hash": "4ade4eae3e5adb2d4c8755a9462d1026"
+        },
+        {
+            "date": 1635995769107,
+            "name": "log\\server\\access2021-11-04.log.10",
+            "hash": "ad1acffd620597f71c3f372bda4b976b"
+        },
+        {
+            "date": 1635997013286,
+            "name": "log\\server\\access2021-11-04.log.11",
+            "hash": "68a8f093815c96043e2a5458c116371e"
+        },
+        {
+            "date": 1635998441308,
+            "name": "log\\server\\access2021-11-04.log.12",
+            "hash": "94e238614aa2a3f4a190d1a8b96b2afa"
+        },
+        {
+            "date": 1636000784435,
+            "name": "log\\server\\access2021-11-04.log.13",
+            "hash": "54d5eaa95b8d3abbfcdb6aef5af63ed3"
         }
     ]
 }

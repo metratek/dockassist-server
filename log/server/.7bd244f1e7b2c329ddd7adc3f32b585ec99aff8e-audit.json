@@ -9,6 +9,21 @@
             "date": 1635688098126,
             "name": "log\\server\\error2021-10-31.log",
             "hash": "cf2a26b6f11d91ae305b81e7e9ae8e10"
+        },
+        {
+            "date": 1635829054785,
+            "name": "log\\server\\error2021-11-02.log",
+            "hash": "4cd71705fedaf46b802585b911497a50"
+        },
+        {
+            "date": 1635942931162,
+            "name": "log\\server\\error2021-11-03.log",
+            "hash": "3c210c34ab21ce970f5411162b44d19c"
+        },
+        {
+            "date": 1635992802499,
+            "name": "log\\server\\error2021-11-04.log",
+            "hash": "a3a3dbaca2ad6f99166be44976f36929"
         }
     ]
 }

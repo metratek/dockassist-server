@@ -1,13 +1,14 @@
 var sendMail = require ('./emailer');
 var fs = require('fs');
 
-const certPath = "C:/Certbot/live/moh.metratek.co.uk"
+const certPath = "C:/pem_certs/"
 
 var options = {
-  key: fs.readFileSync(certPath+'/privkey.pem'),
-  cert: fs.readFileSync(certPath+'/fullchain.pem'),
+  //key: fs.readFileSync(certPath+'/privkey.pem'),
+ // cert: fs.readFileSync(certPath+'/fullchain.pem'),
 	// Set CORS headers
-  
+  key: fs.readFileSync(certPath+'moh.metratek.co.uk-key.pem', 'utf8'),
+  cert: fs.readFileSync(certPath+'moh.metratek.co.uk-crt.pem', 'utf8'),  
   cookie: false
 };
 
@@ -16,24 +17,35 @@ var options = {
 // to attach the socketio server, since with the simple
 // listen method SSL is not possible
 const httpServer = require('http').createServer(options);
-var httpsServer = require('https').createServer(options);
-var ioserver = require('socket.io')();
+var httpsServer = require('https').createServer(options, (req, res) => {
+  res.writeHead(200, {
+    'Content-Type': 'application/json',
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept'
+});
+res.end(JSON.stringify({
+   version: '1.0',
+   endpoint: req.url,
+   method: req.method,
+   headers: req.headers 
+}, null, 2));
+
+});
+var ioserver = require('socket.io')({
+  allowEIO3: true // false by default
+});
 
 //var ioserver = new ioServer();
 ioserver.attach(httpServer,{
     cors: {
-      origin: "*",
-      methods: ["GET", "POST"]
+      origin: "http://moh.metratek.co.uk",
+      methods: ["GET", "POST", "OPTIONS"],
+      credentials: true
     }
   });
-ioserver.attach(httpsServer,{
-    cors: {
-      origin: "*",
-      methods: ["GET", "POST"]
-    }
-  });
-httpServer.listen(3000);
-httpsServer.listen(3001);
+ ioserver.attach(httpsServer); 
+httpServer.listen(process.env.PORT || 3000);
+httpsServer.listen(process.env.PORT || 3001);
 
 
 
